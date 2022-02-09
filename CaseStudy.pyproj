@@ -31,7 +31,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\assets\brand\bootstrap-logo-white.svg" />
+    <Content Include="static\assets\brand\bootstrap-logo.svg" />
+    <Content Include="static\assets\dist\css\bootstrap.min.css" />
+    <Content Include="static\assets\dist\css\bootstrap.min.css.map" />
+    <Content Include="static\assets\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="static\assets\dist\css\bootstrap.rtl.min.css.map" />
+    <Content Include="static\assets\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="static\assets\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="static\cover1.css" />
+    <Content Include="templates\index.html" />
     <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\assets\" />
+    <Folder Include="static\assets\brand\" />
+    <Folder Include="static\assets\dist\" />
+    <Folder Include="static\assets\dist\css\" />
+    <Folder Include="static\assets\dist\js\" />
+    <Folder Include="static\" />
+    <Folder Include="templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
